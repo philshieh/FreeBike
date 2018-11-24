@@ -1,0 +1,21 @@
+<!-- 地图 -->
+<!-- longitude 经度 -->
+<!-- latitude 纬度 -->
+<!-- show-location 显示当前位置 -->
+<!-- scale 地图缩放级别 取值范围5-18 -->
+<!-- markers 标记点 -->
+<!-- bindcontroltap 绑定控件函数 -->
+<!-- bindregionchange 绑定位置改变函数    -->
+<map
+  id='myMap'
+  longitude='{{longitude}}'
+  latitude='{{latitude}}'
+  controls='{{controls}}'
+  show-location='true'
+  scale='17'
+  markers='{{markers}}'
+  bindcontroltap='controltap'
+  bindregionchange='regionchange'
+  style='width:100%;height:100%'
+>
+</map>
